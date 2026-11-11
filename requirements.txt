@@ -1,0 +1,9 @@
+# Python 3.12 on macOS; supports both Intel (x86_64) and Apple Silicon (arm64)
+numpy>=1.26,<2.0
+mediapipe==0.10.21
+opencv-python==4.11.0.86
+PySide6>=6.7,<7
+pyautogui>=0.9.54
+pyobjc-core>=10.2; sys_platform == "darwin"
+pyobjc-framework-Cocoa>=10.2; sys_platform == "darwin"
+pyobjc-framework-Quartz>=10.2; sys_platform == "darwin"
